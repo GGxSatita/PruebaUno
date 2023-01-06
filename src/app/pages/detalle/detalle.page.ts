@@ -17,7 +17,8 @@ export class DetallePage implements OnInit {
 
   ngOnInit() {
   }
-
+  ionViewWildEnter(){
+  }
 
 
 }
