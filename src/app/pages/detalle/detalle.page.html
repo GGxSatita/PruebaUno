@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalle</ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button >
+        atras
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+
+    <ion-card-content>
+      <ion-slides mode="ios" pager="ios" scrollbar="ios">
+        <ion-slide>
+          <img src="https://api.lorem.space/image/shoes?w=640&h=480&r=7759" alt="">
+          <img src="https://api.lorem.space/image/shoes?w=640&h=480&r=7758" alt="">
+          <img src="https://api.lorem.space/image/shoes?w=640&h=480&r=7759" alt="">
+        </ion-slide>
+      </ion-slides>
+
+      <ion-card-header>
+        <ion-card-title>Nombre : </ion-card-title>
+        <ion-card-subtitle>precio : $ </ion-card-subtitle>
+        <p>Descripción : {{descripcion}}</p>
+
+      </ion-card-header>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

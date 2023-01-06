@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>PRUEBA UNO</ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button>
+        <ion-icon slot="start" name="add"></ion-icon>
+        Click me
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Nueva Cuenta</ion-card-title>
+      <ion-card-subtitle>Completa los campos</ion-card-subtitle>
+
+    </ion-card-header>
+    <ion-card-content>
+
+      <ion-list>
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+            Usuario
+          </ion-label>
+          <ion-input type="text" placeholder="Ingresa tu nick" minlength="3" maxlength="8"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+          Correo</ion-label>
+          <ion-input type="email" placeholder="Ingresa tu email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+          Selecciona tu carrera
+        </ion-label>
+
+          <ion-select placeholder="">
+            <ion-select-option value="Cocina">Cocina</ion-select-option>
+            <ion-select-option value="Informatica">Informatica</ion-select-option>
+            <ion-select-option value="Redes">Redes</ion-select-option>
+            <ion-select-option value="Administacion">Administación</ion-select-option>
+            <ion-select-option value="Otra">Otra</ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+          Contraseña
+        </ion-label>
+          <ion-input type="password" placeholder="Ingresa tu contraseña"></ion-input>
+        </ion-item>
+
+      </ion-list>
+
+      <ion-button
+         color="success"
+         slot="start"
+         (click)="alertar()"
+         >
+          Registrar
+        </ion-button>
+
+        <ion-button
+        >
+          Limpiar
+        </ion-button>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
