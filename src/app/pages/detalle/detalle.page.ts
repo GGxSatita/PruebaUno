@@ -19,4 +19,5 @@ export class DetallePage implements OnInit {
   }
 
 
+
 }
