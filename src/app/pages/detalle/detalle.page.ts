@@ -17,8 +17,11 @@ export class DetallePage implements OnInit {
 
   ngOnInit() {
   }
-  ionViewWildEnter(){
-  }
+  // ionViewWildEnter(){
+  //   this.route.params.subscribe(parametros =>{
+  //    this.descripcion = parametros.descripcion(['descripcion']) || 'sin descripcion';
+  //   })
+  // }
 
 
 }
